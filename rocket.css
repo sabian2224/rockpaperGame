@@ -1,0 +1,53 @@
+.game-visual {
+    display: flex;
+    min-height: 400px;
+    max-height: 600px;
+    justify-content: center;
+    padding-top: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+ /* Custom styles to override Bootstrap */
+ .btn-purple {
+    background-color: rgb(92, 27, 197);
+    color: white; /* Text color */
+  }
+
+  .btn-purple:hover {
+    background-color: rgb(45, 8, 103); /* Change color on hover */
+    color: white;
+  }
+
+.move-img {
+    max-height: 170px;
+    margin-top: 20px;
+}
+
+
+.move-container {
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.result-container{
+    position: fixed;
+}
+
+
+.dashboard {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.controller-container {
+    display: flex;
+    justify-content: center;
+}
